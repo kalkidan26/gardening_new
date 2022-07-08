@@ -69,7 +69,7 @@ export const CardButton = styled.button`
 	width: 100%;
 	font-weight: 600;
 	text-align: right;
-	border: none;
+	border: none;j
 	border-radius: 0 0 10px 10px;
 
 `;
