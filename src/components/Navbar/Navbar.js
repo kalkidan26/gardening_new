@@ -46,7 +46,7 @@ const Navbar = () => {
 	return (
 		<IconContext.Provider value={{ color: '#fff' }}>
 			<Nav>
-				<NavbarContainer>''
+				<NavbarContainer>
 					<NavLogo to="/">
 						<NavIcon src="../assets/logo.png" alt="logo" />
 					</NavLogo>

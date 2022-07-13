@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { CardButton } from '../components/Carousel/CarouselStyles';
 import Navbar2 from '../components/Navbar/Navbar2';
+import ProjectData from '../data/ProjectData';
 
 function AllProject() {
 
@@ -44,9 +45,13 @@ function AllProject() {
 	  <>
 	  <Navbar2 />
 	<div style={{margin:'8%'}}>	
-	<img src= {data[id].image}/>
  	<h1>{data[id].title}</h1>
  	<div>{data[id].description}</div>
+	<img src= {data[id].image}
+	style={{width:'100%',
+		height: '31rem',
+		PaddingRight: '40px'}}/>
+		<ProjectData/>
  	<Link to='/' >
 	<CardButton>
 	See Less
