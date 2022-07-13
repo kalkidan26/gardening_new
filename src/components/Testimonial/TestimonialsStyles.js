@@ -11,6 +11,7 @@ import { motion } from 'framer-motion';
 
 export const TestimonialTextWrapper = styled.div`
 	position: relative;
+	
 `;
 
 export const TestimonialWrapper = styled.div`
@@ -33,7 +34,7 @@ export const TestimonialWrapper = styled.div`
 
 export const TestimonialColumn = styled(motion.div)`
 	display: flex;
-	flex-flow: column;
+	flex-direction: row-reverse;
 	justify-content: center;
 	align-items: left;
 	background: #fff;
@@ -50,19 +51,11 @@ export const TestimonialColumn = styled(motion.div)`
 export const TestimonialImageWrapper = styled.div`
 	margin-bottom: 1rem;
 	padding: 30px;
-`;
-export const TestimonialName = styled.h3`
-	font-weight: 600;
-	font-size: 1.3rem;
-	letter-spacing: 2px;
 
-	
 	@media screen and (max-width: 768px) {
-		font-weight: 400;
-		font-size: 1rem;
-		letter-spacing: 1.3px;
-	}
+		display: none;
 `;
+
 export const TestimonialText = styled.p`
 	margin: 1rem 1rem auto;
 	text-align: left;
@@ -71,7 +64,6 @@ export const TestimonialText = styled.p`
 	letter-spacing: 0.5px;
 	color: #626881;
 
-	@media screen and (max-width: 768px) {
-		display: none;
+	
 	}
 `;

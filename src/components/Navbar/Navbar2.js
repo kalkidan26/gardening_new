@@ -13,7 +13,7 @@ const Navbar2 = () => {
 			<Nav>
 				<NavbarContainer>
 					<NavLogo to="/">
-						<NavIcon src="./assets/logo.png" alt="logo" />
+						<NavIcon src="../assets/logo.png" alt="logo" />
 					</NavLogo>
 					
 				</NavbarContainer>

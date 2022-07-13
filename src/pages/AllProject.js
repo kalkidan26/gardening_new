@@ -11,19 +11,19 @@ function AllProject() {
 			title: 'Mekelle Military Staff College',
 			description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',		
-			image: './assets/clients.jpg',
+			image: '../assets/clients.jpg',
 		},
 		{
 			id: 1,
 			title: 'Dessie City Adminstration Park ',
 			description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-			image: './assets/security.jpg',
+			image: '../assets/security.jpg',
 		},
 		{
 			id: 2,
 			title: 'Sendafa Solar Panel Factory',
 			description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-			image: './assets/teamwork.jpg',
+			image: '../assets/teamwork.jpg',
 		},
 		{
 			id: 3,
