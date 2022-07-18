@@ -12,7 +12,7 @@ function AllProject() {
 			title: 'Mekelle Military Staff College',
 			description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',		
-			image: '../assets/project1.jpg',
+			image: ['../assets/project1.jpg', '../assets/project2.jpg', '../assets/project3.jpg','../assets/project1.jpg', '../assets/project2.jpg', '../assets/project3.jpg','../assets/project1.jpg', '../assets/project2.jpg', '../assets/project3.jpg'],
 		},
 		{
 			id: 1,
@@ -46,10 +46,19 @@ function AllProject() {
 	<div style={{margin:'8%'}}>	
  	<h1>{data[id].title}</h1>
  	<div>{data[id].description}</div>
-	<img src= {data[id].image}
+	{
+		data[id].image.map((image, index) => {
+			return (
+					<img key={index} src={image} alt="project" style={{width:'33%', padding:'25px'}} />
+			)
+		}
+		)
+	}
+	
+	{/* <img src= {data[id].image}
 	style={{width:'100%',
 		height: '31rem',
-		PaddingRight: '40px'}}/>
+		PaddingRight: '40px'}}/> */}
 		<ProjectData/>
  	<Link to='/' >
 	<CardButton>
