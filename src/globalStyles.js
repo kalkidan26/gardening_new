@@ -35,7 +35,7 @@ export const Heading = styled.h2`
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
 	color: ${({ inverse }) => (inverse ? '$403ae3' : '#000')};
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.1rem;
 	line-height: 1.06;
 	text-align: center;
 	width: ${({ width }) => (width ? width : '100%')};

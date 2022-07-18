@@ -37,7 +37,7 @@ const Features = () => {
 							key={index}
 						>
 							<FeatureImageWrapper className={el.imgClass}>
-								{el.icon}
+							<img style={{width: '45px'}}src={el.image}/>
 							</FeatureImageWrapper>
 							<FeatureName>{el.name}</FeatureName>
 							<FeatureText>{el.description}</FeatureText>

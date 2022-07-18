@@ -24,7 +24,7 @@ export const TestimonialWrapper = styled.div`
 
 	@media screen and (max-width: 1100px) {
 		grid-template-columns: repeat(2, 1fr);
-		grid-row-gap: 3rem;
+		grid-row-gap: 2rem;
 	}
 
 	@media screen and (max-width: 568px) {
@@ -57,13 +57,16 @@ export const TestimonialImageWrapper = styled.div`
 `;
 
 export const TestimonialText = styled.p`
-	margin: 1rem 1rem auto;
+	margin: 1rem 0 auto;
 	text-align: left;
 	font-size: 0.9rem;
 	line-height: 1.73;
 	letter-spacing: 0.5px;
 	color: #626881;
 
+	@media screen and (max-width: 768px) {
+		padding-left : 1rem;
+		margin-bottom: 16px;
 	
 	}
 `;

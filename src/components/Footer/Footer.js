@@ -22,11 +22,11 @@ function Footer() {
 				<FooterGrid justify="space-between">
 					<FooterColumn id="footerLogo">
 						<FooterLogo to="/">
-							<SocialIcon src="./assets/logo.png" />
+							<SocialIcon src="../assets/logo.png" />
 							
 						</FooterLogo>
 						<FooterAddress>
-							69 Street, Delta Building, US Road, Los Angeles 123
+							Bole, Medanialem Building, Addis Ababa, Ethiopia
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">
@@ -53,7 +53,7 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>CopyRight © 2021</FooterRights>
+				<FooterRights>CopyRight © 2022</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);

@@ -1,26 +1,23 @@
 import React from 'react';
 
-// import {GiGardeningShears} from 'react-icons/gi'
-import { RiLandscapeFill } from 'react-icons/ri';
-import {  BiDollar } from 'react-icons/bi';
-import { GrHostMaintenance } from 'react-icons/gr';
+import { BiUserCircle } from 'react-icons/bi';
 
 const iconStyle = (Icon) => <Icon size="3rem" color="#67923D" />;
 
 export const testimonialsData = [
 	{
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-		icon: iconStyle(RiLandscapeFill),
+		icon: iconStyle(BiUserCircle),
 		imgClass: 'two',
 	},
 	{
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-		icon: iconStyle(GrHostMaintenance),
+		icon: iconStyle(BiUserCircle),
 		imgClass: 'three',
 	},
 	{
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-		icon: iconStyle(BiDollar),
+		icon: iconStyle(BiUserCircle),
 		imgClass: 'five',
 	},
 ];

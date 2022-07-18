@@ -1,14 +1,6 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-// export const FeatureTitle = styled.h2`
-// 	text-align: center;
-// 	font-size: clamp(1.3rem, 13vw, 3.1rem);
-// 	line-height: 1.06;
-// 	letter-spacing: 0.4rem;
-// 	margin: auto;
-// `;
-
 export const FeatureTextWrapper = styled.div`
 	position: relative;
 	padding: 0 0 20px;
