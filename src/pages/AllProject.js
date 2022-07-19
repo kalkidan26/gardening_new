@@ -18,25 +18,26 @@ function AllProject() {
 			id: 1,
 			title: 'Dessie City Adminstration Park ',
 			description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-			image: '../assets/project2.jpg',
+			image: ['../assets/project2.jpg','../assets/project4.jpg']
 		},
 		{
 			id: 2,
 			title: 'Sendafa Solar Panel Factory',
 			description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-			image: '../assets/project3.jpg',
+			image: ['../assets/project3.jpg','../assets/project4.jpg','../assets/project2.jpg',	]
 		},
 		{
 			id: 3,
 			title: 'Addis Ababa Mesqel Square',
 			description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-			image: '../assets/project4.jpg',
+			image: ['../assets/project4.jpg','../assets/projects.jpg','../assets/project2.jpg',	]
 		},
 		{
 			id: 4,
 			title: 'Mekelle Industrial Park',
 			description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores eaque.',
-			image: '../assets/project4.jpg',	},
+			image: ['../assets/project5.jpg','../assets/project4.jpg','../assets/project2.jpg',	]
+		},
 	];
 	const { id } = useParams();
 
